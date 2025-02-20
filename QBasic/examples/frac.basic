@@ -1,0 +1,14 @@
+140 LET ans = ans * k
+100 REM calculate frac
+110 LET ans = 1
+300 END
+120 INPUT k
+FUCK YOU
+122 IF k < 1 THEN 300
+290 PRINT ans
+115 LET k = 0
+123 IF k > 16 THEN 300
+150 LET k = k - 1
+160 GOTO 130
+130 IF k < 1 THEN 290
+HELP

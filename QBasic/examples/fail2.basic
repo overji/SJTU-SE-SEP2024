@@ -1,0 +1,2 @@
+100 REM this is test for buggy expression
+110 LET a = (1+1))

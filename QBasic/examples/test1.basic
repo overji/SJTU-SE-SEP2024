@@ -1,0 +1,8 @@
+100 REM Test for expression tree
+110 LET a = 15
+120 LET b = 2
+130 LET c = 3
+140 PRINT (a*b + aMOD  b - c  **     b + a/b-b+a+c)
+150 REM next is test for a series of backets.
+160 PRINT (((((((a))))))-b+(c*((b)**2)))
+170 END

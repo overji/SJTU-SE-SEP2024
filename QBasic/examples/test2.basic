@@ -1,0 +1,10 @@
+120 LET rev = 0
+150 LET rev = rev * 10 + a MOD 10
+110 LET a = 0
+190 END
+100 REM this is test for randomize sequence of codes.
+180 PRINT rev
+160 LET a = a / 10
+130 INPUT a
+170 GOTO 140
+140 IF a = 0 THEN 180

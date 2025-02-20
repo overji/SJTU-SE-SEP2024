@@ -1,0 +1,15 @@
+CLEAR
+100 REM calculate stair ways
+110 LET stairs = 0
+120 INPUT stairs
+130 LET prev_2 = 0
+140 LET prev_1 = 1
+150 LET cur = -1
+160 IF stairs < 1 THEN 290
+170 LET cur = prev_1 + prev_2
+180 LET prev_2 = prev_1
+190 LET prev_1 = cur
+200 LET stairs = stairs - 1
+210 GOTO 160
+290 PRINT cur
+300 END

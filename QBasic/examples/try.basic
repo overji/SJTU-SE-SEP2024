@@ -1,0 +1,8 @@
+CLEAR
+100 REM nihao
+110 LET a = 10
+120 PRINT a
+130 LET b = 20
+140 PRINT b
+150 LET c = a + b
+200 END
